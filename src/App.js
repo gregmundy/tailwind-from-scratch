@@ -4,6 +4,7 @@ import EmailSubscibe from "./pages/EmailSubscribe";
 import PricingCards from "./pages/PricingCards";
 import { Routes, Route } from "react-router-dom";
 import ImageGallery from "./pages/ImageGallery";
+import LoginModal from "./pages/LoginModal";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/pricing-cards" element={<PricingCards />} />
         <Route path="/product-modal" element={<ProductModal />} />
         <Route path="/image-gallery" element={<ImageGallery />} />
+        <Route path="/login-modal" element={<LoginModal />} />
       </Routes>
     </div>
   );

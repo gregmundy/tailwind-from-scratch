@@ -17,6 +17,9 @@ const Home = () => {
         <li>
           <Link to="/image-gallery">Image Gallery</Link>
         </li>
+        <li>
+          <Link to="/login-modal">Login Modal</Link>
+        </li>
       </ul>
     </div>
   );
