@@ -14,6 +14,9 @@ const Home = () => {
         <li>
           <Link to="/product-modal">Product Modal</Link>
         </li>
+        <li>
+          <Link to="/image-gallery">Image Gallery</Link>
+        </li>
       </ul>
     </div>
   );
